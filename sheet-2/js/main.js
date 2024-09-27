@@ -63,14 +63,18 @@ console.log(sumNumber(8));
 //Q8:
 var array4 = [7,13,3,77,100]
 
+//1:
 var lowestElement = Math.min(...array4);
 console.log(lowestElement);
 
-var highestElement = Math.max(array4);
+//2:
+var highestElement = Math.max(...array4);
 console.log(highestElement);
 
+//3:
 console.log(array4.length);
 
+//4:
 function getAverage(array4) {
     let sum = 0;
     
@@ -84,6 +88,7 @@ function getAverage(array4) {
 }
 console.log(getAverage(array4));  
 
+//5:
 var newArray = array4;
 console.log("The new array:",newArray);
 
